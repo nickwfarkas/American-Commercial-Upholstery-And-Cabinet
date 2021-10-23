@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" >  
+  <title>American Commercial Upholstery</title>
+  <link rel="shortcut icon" type="favicon" href="./Assets/favicon.ico"/>
+  <link rel="shortcut icon" type="image/jpg" href="./Assets/favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="./Assets/transparent_just_house_colored.png"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container1">
+    <div class="headerImg">
+      <img src="./Assets/transparent_just_house_colored.png" alt="American Commercial Upholstery"/>
+    </div>
+
+    <div id="head" class= "headerTxt">
+      American Commercial Upholstery and Cabinets
+    </div>
+  </div>
+
+  <div id="nav" class="red">
+    <a id="li" class="red" href="#about">ABOUT</a>
+    <a id="li" class="red" href="#contact">CONTACT</a>
+    <a id="li" class="red" href="#gallery">GALLERY</a>
+    <a id="li" class="red" href="#the-artists">THE TEAM</a>
+  </div>
+
+  <div class="carousel-container">
+    <div id="carousel-slide" class="carousel-slide carousel-slide-active">
+      <img id="carousel-slide-image-1" src='./Gallery/D0BDBDCA-AAAB-4DC6-BCB7-933E11B22865.JPG'/>
+      <img id="carousel-slide-image-2" src='./Gallery/A56C1053-545C-4D10-9A19-7211B08BAED4.JPG'/>
+      <img id="carousel-slide-image-3" src='./Gallery/B7001978-E0E8-49DE-A707-7153C02CD9F4.JPG'/>
+      <img id="carousel-slide-image-4" src='./Gallery/4EB1D7DD-3AE1-4225-84B3-893D0B05AF2B.JPG'/>
+    </div>
+  </div>
+
+  <div id="contact" class="info red">
+    <div class="hours">
+      <div class="red">
+        <div class="hours" id="monday">Monday - 9:00 AM to 5:00 PM<br /></div>
+        <div class="hours" id="tuesday">Tuesday - 9:00 AM to 5:00 PM<br /></div>
+        <div class="hours" id="wednsday">Wednsday - 9:00 AM to 5:00 PM<br /></div>
+        <div class="hours" id="thursday">Thursday - 9:00 AM to 5:00 PM<br /></div>
+        <div class="hours" id="friday">Friday - 9:00 AM to 5:00 PM<br /></div>
+        <div class="hours" id="saturday">Saturday - 10:00 AM to 2:00 PM<br /></div>
+        <div class="hours" id="sunday">Sunday - CLOSED<br /></div>
+      </div>
+    </div>
+    <div class="vert"></div>
+    <div class="contact-us">
+      <div class="box" id="phone-box">
+        <img src="./Assets/telephone.png"><br />
+        <tel href="tel:+1-313-383-6860" class="contact">(313) 383-6860</tel>
+      </div>
+      <div class="seperation"></div>
+      <div class="box" id="email-box">
+        <img src="./Assets/laptop.png"><br />
+        <a href="mailto:americancommercialupholstery@gmail.com?subject=American Commercial Upholstery and Cabinets" class="contact">Email Here!</a>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- <div id="about">
+    <div id="logo-img">
+      <img src="./Assets/transparent_just_house_colored.png"/>
+    </div>
+    <div id="about-description">
+      American Commercial Upholstery and Cabinets has been blurring the line between carpentry and artistry since 1970.
+      We use original techniques with the cutting-edge tooling to create top of the line upholstery, cabinetry, and general carpentry.
+      With over a hundred years in experience between our team members, we can engineer and execute any upholstery or cabinetry task given to us.
+      You can reach us during business hours at (313) 383-6860 or send us an email any time at americancommercialupholstery@gmail.com.
+      We look forward to seeing what we can create together.
+    </div>  
+  </div> -->
+
+  <div class="seperator"></div>
+
+  <div id="gallery" class="gallery-title">The Art</div>
+
+  <div id="gallery-container" class="gallery"></div>
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div id="modal-content" class="modal-content">
+  
+      <a class="prev" onclick="minusSlides(1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="the-artists" class="gallery-title">The Artist Spotlight</div>
+
+  <div id="team">
+    <div id="steve-f-profile-picture" class="profile-picture">
+      <img src="./Assets/Founder.jpg"><br>Stephen Farkas<br><strong style="color: #3C3B6E;">Founder & Artist</strong>
+    </div>
+    <div id="steve-f-profile-description" class="profile-description">
+      Stephen Farkas started with a dream to create high quality carpentry solutions at a cost that restaurateurs and small businesses owners can afford.
+      This dream could not be fulfilled without branching off and starting his own business. 
+      With his over 40 years of experience, Steve has stream lined the carpentry process and created strong relationships with suppliers of the highest quality materials, passing those savings off to his valued customers.
+      A small business entrepreneur at heart, Steve has had the pleasure of working with some of the most influential businesses in the Detroit area.
+    </div>
+    <div id="paul-z-profile-picture" class="profile-picture">
+      <img src="./Assets/Paul.jpeg"><br>Paul Zanotti<br><strong style="color: #3C3B6E;">Artist</strong>
+    </div>
+    <div id="paul-z-profile-description" class="profile-description">
+      An artist at heart, Paul Zanotti, is highly skilled about everything that American Commercial Upholstery and Cabinets offers. A veteran member of the team, Paul takes leads on many creations.
+      When Steve had a battle with Leukemia, Paul stepped in along with others in the American crew during a pandemic when restaurants were truly struggling, to lead the team through the turbulent times.
+    </div>
+  </div>
+
+  <div class="seperator"></div>
+
+  <div id="take-a-seat" class="gallery-title">Take a Seat</div>
+  <div id="take-a-seat-description">
+    at one of our customers' businesses and see the artistry for yourself!
+  </div>
+  <div id="customer-images">
+    <a href="https://www.henryford.com/" target="_blank">
+      <img src="./Businesses/hfhs.png" >
+    </a>
+    <a href="https://wahlburgers.com/" target="_blank">
+      <img src="./Businesses/wahlburgers.png" href="https://wahlburgers.com/">
+    </a>
+    <a href="https://leonsrestaurants.com/" target="_blank">
+      <img src="./Businesses/leons.png" href="https://leonsrestaurants.com/">
+    </a>
+    <a href="https://www.ramshornrestaurants.com/" target="_blank">
+      <img src="./Businesses/rams-horn.png">
+    </a>
+    <a href="http://www.piaspizza.com/menus/" target="_blank">
+      <img src="./Businesses/pias.png">
+    </a>
+    <a href="http://www.baldos.com/menu.html" target="_blank">
+      <img src="./Businesses/baldos.jpeg">
+    </a>
+  </div>
+
+  <div id="bottom-menu">
+    <li><a class="menu-item" href="#head">Back to the top</a></li>
+    <li><a class="menu-item">Call Us: (313) 383-6860</a></li>
+    <li><a class="menu-item" href="https://search.google.com/local/writereview?placeid=ChIJgyMw_zkxO4gRDQuRlgGvpgA" target="_blank">Rate Us &#9733&#9733&#9733&#9733&#9733</a></li>
+    <li><a class="menu-item" href="info.html">More about this page</a></li>
+  </div>
+
+  <script src="carousel.js"></script>
+  <script src="hours_of_operation.js"></script>
+  <script src="sticky_nav.js"></script>
+  <script src="gallery.js"></script>
+
+</body>
+</html>
